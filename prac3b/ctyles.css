@@ -1,0 +1,111 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+div.card {
+    border: 1vh solid black;
+    width: 50vh;
+    height: 92vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.boomer {
+    width: 480%;
+}
+
+@media only screen and (min-width: 1200px) {
+    div.card {
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1100px) {
+    div.card {
+        align-items: flex-start;
+    }
+    .boomer {
+        margin-left: -95%;
+    }
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 1000px) {
+    div.card {
+        align-items: flex-start;
+    }
+    .boomer {
+        margin-left: -190%;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
+    div.card {
+        align-items: flex-start;
+    }
+    .boomer {
+        margin-left: -285%;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 900px) {
+    div.card {
+        align-items: flex-start;
+    }
+    .boomer {
+        margin-left: -380%;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 800px) {
+    div.card {
+        align-items: flex-start;
+    }
+    .boomer {
+        margin-top: -178%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 700px) {
+    div.card {
+        align-items: flex-start;
+    }
+    .boomer {
+        margin-top: -178%;
+        margin-left: -95%;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+    div.card {
+        align-items: flex-start;
+    }
+    .boomer {
+        margin-top: -178%;
+        margin-left: -190%;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+    div.card {
+        align-items: flex-start;
+    }
+    .boomer {
+        margin-top: -178%;
+        margin-left: -285%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    div.card {
+        align-items: start;
+    }
+    .boomer {
+        margin-top: -178%;
+        margin-left: -380%;
+    }
+}
